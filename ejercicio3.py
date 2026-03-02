@@ -1,4 +1,13 @@
-# Ejercicio 3: Función recursiva para el n-ésimo número de Fibonacci
+"""
+Ejercicio 3:
+Escribe una función recursiva que calcule el n-ésimo número de Fibonacci.
+
+¿Qué es la secuencia de Fibonacci?
+La secuencia de Fibonacci es una serie de números donde cada número es la suma de los dos anteriores. Comienza con 0 y 1, y continúa indefinidamente. La secuencia se define de la siguiente manera:
+F(0) = 0
+F(1) = 1
+F(n) = F(n-1) + F(n-2) para n > 1
+"""
 
 def fibonacci(n):
     if n < 0:
