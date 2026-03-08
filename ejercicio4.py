@@ -17,7 +17,8 @@ print(f"=== Ejercicio 4: Operaciones con lista ===\n")
 
 """
 Según google...
-lambda se usa para crear funciones anónimas en una sola línea, sin necesidad de definirlas con def. Es ideal cuando necesitamos una función pequeña que solo se usa una vez, como argumento de map, filter o reduce.
+lambda se usa para crear funciones anónimas en una sola línea, sin necesidad de definirlas con def.
+Es ideal cuando necesitamos una función pequeña que solo se usa una vez, como argumento de map, filter o reduce.
 """
 
 # Usando map
@@ -29,7 +30,8 @@ pares = list(filter(lambda x: x % 2 == 0, lista))
 print(f"Pares (filter):   {pares}")
 
 """
-reduce toma una función y una secuencia, y aplica la función de manera acumulativa a los elementos de la secuencia, reduciéndola a un solo valor. Es útil para operaciones como sumas o productos.
+reduce toma una función y una secuencia, y aplica la función de manera acumulativa a los elementos de la secuencia, reduciéndola a un solo valor.
+Es útil para operaciones como sumas o productos.
 """
 
 # Usando reduce para sumar [1..10]
